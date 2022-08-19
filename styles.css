@@ -1,0 +1,74 @@
+@font-face {
+    font-family: NanumPen;
+    src: url(NanumPen.eot); /* IE 6 ~ 8, IE 호환성 보기 */
+    src: local(☺),
+         url(NanumPen.woff2) format('woff2'), /* IE Edge, WOFF2 지원 브라우저 */
+         url(NanumPen.woff) format('woff'), /* IE 9+, 모던 브라우저 */
+         url(NanumPen.ttf) format('truetype');
+  }
+@font-face {
+    font-family: NanumGothic;
+    src: url(NanumGothic.eot); /* IE 6 ~ 8, IE 호환성 보기 */
+    src: local(☺),
+         url(NanumGothic.woff2) format('woff2'), /* IE Edge, WOFF2 지원 브라우저 */
+         url(NanumGothic.woff) format('woff'), /* IE 9+, 모던 브라우저 */
+         url(NanumGothic.ttf) format('truetype');
+  }
+
+
+html{
+     font-size: 16px;
+     font-family: 'NanumGothic';
+     line-height: 1.5rem;
+}
+
+a{
+     text-decoration: none;
+     color:black;
+}
+
+div{
+     
+}
+
+
+/* header grid*/
+.site-header{
+     padding: 40px;
+     margin-left: 20px;
+}
+#header_border_lists{
+     padding-left: 100px;
+     display: inline-flexbox;
+     width: 700px;
+}
+
+.header_list{
+     display: inline-block;
+     width: fit-content;
+     border: 1px solid black;
+     padding: 0.5rem;
+}
+#header_list1{
+     padding-left: 20px;
+}
+.header_main_logo{ 
+     font-size: 2.5rem;
+     font-family: 'NanumGothic';
+     display: inline;
+}
+#header_border_lists{
+     padding: 0;
+     margin: 0;
+     display: inline;
+}
+
+#header_border_1{
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+#header_border_2{
+     margin-left: 20px;
+
+}
